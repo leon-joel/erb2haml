@@ -10,7 +10,7 @@ def color(text, begin_text_style)
   begin_text_style + text + END_TEXT_STYLE
 end
 
-namespace :haml do
+namespace :haml_leon do
   desc "Perform bulk conversion of all html.erb files to Haml in views folder."
   task :convert_erbs do
 
