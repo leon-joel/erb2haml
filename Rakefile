@@ -1,5 +1,5 @@
 require 'rake'
-require File.expand_path('../lib/erb2haml/version', __FILE__)
+require File.expand_path('../lib/erb2haml-leon/version', __FILE__)
 
 desc "Release gem #{ERb2Haml::VERSION}"
 task :release do

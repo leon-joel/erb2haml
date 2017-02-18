@@ -63,7 +63,7 @@ namespace :hamlleon do
             print "Removing: #{path}... "
             
             if 0 < File.delete(path)
-              puts color("Removed!", GREEN_FG)
+              puts color("Done!", GREEN_FG)
             else
               puts color("Failed!", RED_FG)
             end
