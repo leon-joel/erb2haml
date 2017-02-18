@@ -62,7 +62,7 @@ namespace :haml do
             puts color("Done!", GREEN_FG)
             print "Removing: #{path}... "
             
-            if system("rm", path)
+            if 0 < File.delete(path)
               puts color("Removed!", GREEN_FG)
             else
               puts color("Failed!", RED_FG)
